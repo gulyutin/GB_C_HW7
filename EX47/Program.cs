@@ -10,7 +10,7 @@ Console.Write("Введите количество строк массива: ")
 int m = int.Parse(Console.ReadLine());
 Console.Write("Введите количество столбцов массива: ");
 int n = int.Parse(Console.ReadLine());
-int[,] array = new int[m, n];
+double [,] array = new double[m, n];
 
 Random rand = new Random();
 for (int i = 0; i < m; i++)
